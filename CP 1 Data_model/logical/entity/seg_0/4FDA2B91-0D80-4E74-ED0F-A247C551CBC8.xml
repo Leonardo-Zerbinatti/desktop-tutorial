@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4FDA2B91-0D80-4E74-ED0F-A247C551CBC8" name="T_VB_PACIENTE_PLANO_SAUDE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:51:11 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plano" id="43631DE0-4479-1185-3A64-CABA58CABF53">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:53:28 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_inicio" id="7B8A0EFD-22B6-B876-A018-DF0B1AD6D35C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:53:47 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_fim" id="90029108-C5FD-7892-03E3-F587963F2677">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:54:06 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao_plano" id="0C2C7662-FE18-9B44-D4D2-D4776FA33632">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:54:19 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4613673A-A7EB-2D44-6DA5-691CC4860AD6" name="T_VB_PACIENTE_PLANO_SAUDE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:53:41 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>43631DE0-4479-1185-3A64-CABA58CABF53</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

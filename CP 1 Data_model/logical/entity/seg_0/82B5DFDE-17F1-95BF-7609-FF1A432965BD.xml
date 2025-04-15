@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82B5DFDE-17F1-95BF-7609-FF1A432965BD" name="T_VB_TELEFONE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:48:05 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_de_telefone_estrangeiro" id="8E657431-B1AE-11DD-A371-A8D906A321FD">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:48:24 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddi" id="DD6E452B-9E15-6674-3AF6-930E2D1FF802">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:48:48 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ddd" id="9B7908E6-34BE-D9D3-BF86-F4A685B9C836">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:49:11 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero" id="B6DF9BCB-A40A-04A7-4DAF-1CEF8F3B0488">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:49:38 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>15</dataTypePrecision>
+<ownDataTypeParameters>,15,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="status_telefone" id="417880DE-8AA6-15ED-B0BD-117CA57EA951">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:50:02 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9D6BB3A2-0861-8A8F-958D-85269ED4CE26" name="T_VB_TELEFONE PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-04-15 14:48:42 UTC</createdTime>
+<ownerDesignName>CP 1 Data_model</ownerDesignName>
+<engineerTo>
+<item key="4BEDB84E-9E66-1426-8E7D-7310ECC323FC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E657431-B1AE-11DD-A371-A8D906A321FD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
